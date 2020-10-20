@@ -1,3 +1,44 @@
+.loginWrapper{
+  /* background-color: #282c34; */
+    background: url('./background.jpg') no-repeat;
+    min-height: 100vh;
+    display: flex;
+
+}
+.loginBox{
+  height: 90vh;
+    background-color: #282c34;
+    color: #000000;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-left: 130px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+.logo{
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  padding: 20px;
+  margin: auto;
+  background: #ffffff;
+  margin-bottom:12px;
+}
+.welcome{
+  max-width: 100%;
+  max-height: 100%;
+}
+.login-wrapper{
+  height: 40%;
+}
+.welcome-wrapper{
+  display:flex;
+  flex-direction: column;
+}
 .App {
   text-align: center;
 }
@@ -15,7 +56,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 95vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,7 +68,38 @@
 .App-link {
   color: #61dafb;
 }
-
+.typography a{
+  color: #a100ff !important;
+}
+.navbar{
+  background-color: #a100ff;
+    height: 5vh;
+    border-bottom: 1px solid #e3e3e3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #ffffff;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding: 5px 10px;
+}
+.navImage{
+  height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border:0.5px solid #ffffff;
+    overflow:hidden;
+}
+.navImage img{
+  max-width: 100%;
+    max-height: 100%;
+}
+.typography{
+  position: relative;
+  top: 270px;
+  font-size: 1rem;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
